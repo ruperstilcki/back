@@ -17,4 +17,4 @@
 
 - npm i
 - npm run start:server
-- Navigate to `http://localhost:3000/`
+- Navigate to `http://localhost:8080/`
