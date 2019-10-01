@@ -1,14 +1,20 @@
 # mushrooms
 
-# ShowcaseWebapp
+# GIT
   
-- git clone https://bitbucket.intesasanpaolo.com/scm/xmon0/xmon-webapp.git
-- git checkout --track origin/env/svil
+- git init
+- git fetch
+- git status
+- git remote rm origin
+- git remote add origin https://github.com/ruperstilcki/backend.git
+- git clone https://github.com/ruperstilcki/backend.git
+- git show-branch -a
+- git checkout master
+- git pull origin master --allow-unrelated-histories
+
+
+# Backend
+
 - npm i
-- npm run build:dev
-- npm run start
-- Navigate to `http://localhost:4200/`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- npm run start:server
+- Navigate to `http://localhost:3000/`
